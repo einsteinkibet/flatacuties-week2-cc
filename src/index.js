@@ -35,7 +35,7 @@ document.addEventListener("DOMContentLoaded", () => {
         .catch((error) => console.error(error));
     }
   
-    // Function to handle vote submission
+    // handle vote submission
     votesForm.addEventListener("submit", (event) => {
       event.preventDefault();
       const votesInput = document.getElementById("votes");
